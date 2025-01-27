@@ -1,0 +1,15 @@
+COMANDOS
+
+ls = lista todos os arquivos e pastas da onde você está (dentro do diretório)
+ls -a = exibe arquivos ocultos
+cd = muda de diretório da onde você está
+cd .. = mudo para a pasta acima da atual
+pwd = mostra o caminho absoluto da onde eu estou
+ctrl + L = limpa o terminal
+mkdir nome_da_pasta = cria uma pasta nova
+cat = mostra o que tem dentro do arquivo 
+git init . = torna a pasta "especial', possível de versionar os arquivos que tem dentro dela. Cria um repositório Git vazio dentro dessa pasta
+rm -rf .git = exclui a pasta [o rf não pede confirmação e exclui todas as subpastas]
+
+COMANDOS GIT
+
