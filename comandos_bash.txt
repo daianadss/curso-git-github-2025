@@ -9,7 +9,21 @@ ctrl + L = limpa o terminal
 mkdir nome_da_pasta = cria uma pasta nova
 cat = mostra o que tem dentro do arquivo 
 git init . = torna a pasta "especial', possível de versionar os arquivos que tem dentro dela. Cria um repositório Git vazio dentro dessa pasta
-rm -rf .git = exclui a pasta [o rf não pede confirmação e exclui todas as subpastas]
+rm -rf .git = exclui arquivo ou diretório [o rf não pede confirmação e exclui todas as subpastas]
+
+nano = editor de texto no terminal
+nano nome_do_arquivo.txt = cria um novo arquivo
+ctrl + o = salva
+ctrl+ x, enter = sair
 
 COMANDOS GIT
 
+git init . = iniciar um repositório Git
+git status = mostra como está o diretório
+git add nome arquivo = adiciona o que eu quero que vá para o commit. Sinaliza o que vai entrar naquele checkpoint
+git add . = adiciona todos os arquivos da pasta
+git commit -m "descrição" = cria um checkpoint com uma descrição
+git config --global user.email "seu email" = identifica email de quem assina o commit
+git config --global user.name "seu nome" = identifica o nome de quem assina o commit
+git log = mostra o histórico de todos os commits
+git diff = saber o que tem de diferente do estado atual do arquivo para o commit anterior
