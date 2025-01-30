@@ -7,3 +7,5 @@ Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
 ------
 
 Me perdi!
+
+09:17 Tentando não me perder de novo! rs
